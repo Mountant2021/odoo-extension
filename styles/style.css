@@ -1,0 +1,72 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tns-grid {
+  display: grid;
+}
+.tns_main {
+  width: 400px;
+  border: 0.1em solid rosybrown;
+}
+/* HEADER */
+.tns_header {
+  padding: 1em 0.5em;
+  background: rosybrown;
+  grid-template-columns: max-content auto;
+  grid-gap: 1em;
+}
+.tns_header_avatar figure {
+  margin: 0;
+}
+.tns_header_avatar img {
+  width: 60px;
+  object-fit: cover;
+}
+.tns_header_text p {
+  margin: 0;
+  margin-bottom: 0.5em;
+  color: white;
+  text-align: right;
+}
+.tns_header_title {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+}
+.tns_header_desc {
+  font-size: 1em;
+}
+/* BODY */
+ul.tns-btns {
+  list-style-type: none;
+  padding: 0.5em;
+  margin: 0;
+}
+.tns-btn button {
+  color: white;
+  border: 0.1em solid rosybrown;
+  background: rosybrown;
+  padding: 0.3em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+/* FOOTER */
+.tns-footer {
+  border-top: 0.1em solid rosybrown;
+  padding: 0.5em;
+  grid-template-columns: max-content auto;
+}
+.tns-footer a {
+  color: rosybrown;
+}
+.tns-footer i {
+  text-align: center;
+  line-height: 1em;
+  font-size: 1.3em;
+  margin-right: 0.5em;
+}
+.tns-copyright {
+  font-size: 1em;
+  text-align: right;
+  color:rosybrown;
+  margin: 0;
+}
